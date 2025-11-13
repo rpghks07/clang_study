@@ -1,0 +1,74 @@
+# ---- Build artifacts ----
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+*.app
+*.i*       # preprocessed files (.i, .ii)
+*.s        # assembly files
+
+# ---- Debug / Release ----
+*.dSYM/
+*.pdb
+*.idb
+*.map
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+CTestTestfile.cmake
+cmake_install.cmake
+compile_commands.json
+build/
+build*/
+Makefile
+
+# ---- IDE / Editor ----
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.user
+*.userosscache
+*.suo
+*.cache
+*.ncb
+*.opendb
+*.db
+
+# ---- Logs ----
+*.log
+
+# ---- OS Files ----
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Others ----
+*.tmp
+*.swp
+*.swo
